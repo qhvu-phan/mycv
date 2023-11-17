@@ -5,6 +5,7 @@ version: 2.1
 
 orbs:
   docker: circleci/docker@1.4.0
+  node: circleci/node@3.0.0
   
 jobs:
   build-and-push:
