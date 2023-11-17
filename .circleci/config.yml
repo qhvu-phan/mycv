@@ -18,7 +18,7 @@ jobs:
       - checkout
       - docker/check:
           docker-username: DOCKER_USER
-          docker_password: DOCKER_PASSWORD
+          docker-password: DOCKER_PASSWORD
       - docker/build:
           image: $DOCKER_IMAGE
           tag: $DOCKER_TAG
@@ -32,7 +32,7 @@ jobs:
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
-  test-and-build:
+  my-pipeline:
     jobs:
       - node/test
       - build-and-push:
