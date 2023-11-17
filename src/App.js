@@ -9,6 +9,7 @@ function App() {
         <p>
           Hello ReactJS
         </p>
+        <p>Study CI/CD with Justin</p>
       </header>
     </div>
   );
