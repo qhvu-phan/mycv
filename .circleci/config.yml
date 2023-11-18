@@ -32,6 +32,7 @@ jobs:
   deploy:
     executor: docker/docker
     steps:
+      - checkout
       - run: 
           name: stop and remove existing container
           command: |
