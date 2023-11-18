@@ -10,7 +10,7 @@ function App() {
           Justin Channel
         </p>
         <a className='App-link' href="youtube.com">Follow me on Youtube Channel!</a>
-        <p>Study CI/CD with Justin</p>
+        <p>Study CI/CD with Justin Phan</p>
       </header>
     </div>
   );
