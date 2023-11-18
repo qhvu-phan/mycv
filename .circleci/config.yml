@@ -33,22 +33,19 @@ jobs:
     executor: docker/docker
     steps:
       - checkout
+      
       - run: 
           name: stop and remove existing container
-          command: |
-            docker-compose stop
+          command: docker-compose stop
       - run: 
           name: remove existing container
-          command: |
-            docker-compose rm -f
+          command: docker-compose rm -f
       - run: 
           name: pull latest image
-          command: |
-            docker-compose pull
+          command: docker-compose pull
       - run: 
           name: start container
-          command: |
-            docker-compose up -d
+          command: docker-compose up -d
 
 workflows:
   my-pipeline:
