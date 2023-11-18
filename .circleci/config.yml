@@ -33,8 +33,7 @@ jobs:
     executor: docker/docker
     steps:
       - setup_remote_docker
-      - checkout
-
+      
       - run: 
           name: stop and remove existing container
           command: docker-compose stop
