@@ -37,6 +37,9 @@ jobs:
           name: stop and remove existing container
           command: |
             docker-compose stop
+      - run: 
+          name: remove existing container
+          command: |
             docker-compose rm -f
       - run: 
           name: pull latest image
