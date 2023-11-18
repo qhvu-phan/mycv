@@ -32,7 +32,19 @@ jobs:
   deploy:
     executor: docker/docker
     steps:
-      - run: './app/build/deploy.sh'
+      - run: 
+          name: stop and remove existing container
+          command: |
+            docker-compose stop
+            docker-compose rm -f
+      - run: 
+          name: pull latest image
+          command: |
+            docker-compose pull
+       - run: 
+          name: start container
+          command: |
+            docker-compose up -d
 
 workflows:
   my-pipeline:
