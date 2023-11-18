@@ -32,7 +32,7 @@ jobs:
   deploy:
     executor: docker/docker
     steps:
-      - run: 'deploy.sh'
+      - run: './deploy.sh'
 
 workflows:
   my-pipeline:
