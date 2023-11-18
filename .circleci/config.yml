@@ -41,7 +41,7 @@ jobs:
           name: pull latest image
           command: |
             docker-compose pull
-       - run: 
+      - run: 
           name: start container
           command: |
             docker-compose up -d
