@@ -10,7 +10,7 @@ orbs:
 jobs:
   build-and-push:
     environment:
-      DOCKER_IMAGE: qhvu/mycv-docker
+      DOCKER_IMAGE: vupqh/mycv-docker
       DOCKER_TAG: latest
     executor: docker/docker
     steps:
