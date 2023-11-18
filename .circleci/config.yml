@@ -35,6 +35,10 @@ jobs:
       - setup_remote_docker
       - checkout
 
+      - docker/check:
+          docker-username: DOCKER_USER
+          docker-password: DOCKER_PASSWORD
+
       - run: 
           name: stop and remove existing container
           command: docker-compose stop
