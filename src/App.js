@@ -11,6 +11,7 @@ function App() {
         </p>
         <a className='App-link' href="youtube.com">Follow me on Youtube Channel!</a>
         <p>Study CI/CD with Justin Phan - Huy Vu</p>
+        <p>Last working: {Date().toLocalString()}</p>
       </header>
     </div>
   );
