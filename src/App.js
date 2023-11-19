@@ -6,12 +6,12 @@ function App() {
    return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src='https://www.facebook.com/photo/?fbid=3730185863875125&set=a.1376335205926881' className="App-logo" alt="logo" />
         <p>
-          Justin Channel
+          Justin Blog
         </p>
-        <a className='App-link' href="youtube.com">Follow me on Youtube Channel!</a>
-        <p>Study CI/CD with Justin Phan - Huy Vu</p>
+        <a className='App-link' href="https://www.facebook.com/huyvu.phan.79/">Click to follow me on Facebook!</a>
+        <p>Thanks for visiting</p>
         <p>Current time: {dateVariable}</p>
       </header>
     </div>
