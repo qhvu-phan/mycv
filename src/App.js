@@ -37,7 +37,7 @@ function App() {
         </p>
        <p> 
           <button className='button-30' onClick={handleViewImage}>View Image</button>
-          <button className='button-30' onClick={handleDownloadClick}>Download</button>
+          // <button className='button-30' onClick={handleDownloadClick}>Download</button>
         </p>
         <a className='App-link' href="https://www.facebook.com/huyvu.phan.79/" target='_blank'>Click to follow me on Facebook!</a>
         <p>Thanks for visiting</p>
