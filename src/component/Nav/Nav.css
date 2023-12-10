@@ -1,0 +1,39 @@
+.container-nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+  color: black;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: aliceblue;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 0 40px;
+}
+.name-nav {
+  width: 20%;
+  list-style: none;
+  text-align: left;
+  min-width: 150px;
+}
+.title-nav {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  min-width: 200px;
+}
+.title-nav li {
+  padding-right: 40px;
+}
+li {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 470px) {
+  .title-nav li {
+    padding-right: 10px;
+  }
+}
