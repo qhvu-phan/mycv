@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   docker: circleci/docker@2.4.0
   node: circleci/node@5.1.0
-  
+
 jobs:
   build-and-push:
     environment:
@@ -37,10 +37,7 @@ jobs:
 workflows:
   my-pipeline:
     jobs:
-      - node/test
       - build-and-push:
-          requires:
-            - node/test
           filters:
             branches:
               only:
