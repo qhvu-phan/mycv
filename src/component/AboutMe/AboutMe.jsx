@@ -3,13 +3,15 @@ import "./AboutMe.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="about-me-container">
       <video autoPlay loop muted preload="auto" id="myVideo">
         <source src="header_background.mp4" type="video/mp4"></source>
       </video>
       <div className="header-content">
         <div className="content-left">
-          <p>Hi! I'm <span style={{ color: "dodgerblue" }}>Huy Vũ</span></p>
+          <p>
+            Hi! I'm <span style={{ color: "dodgerblue" }}>Huy Vũ</span>
+          </p>
           <p>
             I graduated with a major in{" "}
             <span style={{ color: "dodgerblue" }}>Software Engineering </span>
