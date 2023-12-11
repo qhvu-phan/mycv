@@ -9,10 +9,7 @@ const Header = () => {
       </video>
       <div className="header-content">
         <div className="content-left">
-          <p>Hi!</p>
-          <p>
-            I'm <span style={{ color: "dodgerblue" }}>Huy Vũ</span>
-          </p>
+          <p>Hi! I'm <span style={{ color: "dodgerblue" }}>Huy Vũ</span></p>
           <p>
             I graduated with a major in{" "}
             <span style={{ color: "dodgerblue" }}>Software Engineering </span>

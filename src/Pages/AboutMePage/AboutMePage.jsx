@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "../../component/AboutMe/AboutMe";
-import { Outlet } from "react-router-dom";
+import AboutMe from "../../component/AboutMe/AboutMe";
 
 const AboutMePage = () => {
   return (
     <div>
-      <Header />
+      <AboutMe />
     </div>
   );
 };
