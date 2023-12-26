@@ -93,10 +93,10 @@ const Skill = () => {
         >
           <Grid container xs={6} gap={2} className="list-skill list-skill-left">
             <div className="title-tecnical-skill">Technical</div>
-            <Grid container spacing={2} noWrap columns={10}>
+            <Grid container spacing={2} noWrap columns={6}>
               {techList.map((techItem, index) => (
                 <Grid item xs={2} key={index}>
-                  <Item>
+                  <Item className="tech-item">
                     <div>
                       <img src={techItem.img} alt="" />
                     </div>
@@ -115,7 +115,7 @@ const Skill = () => {
             className="list-skill list-skill-right"
           >
             <span className="title-tecnical-skill">Tools</span>
-            <Grid container spacing={2} columns={10}>
+            <Grid container spacing={2} columns={6}>
               {toolList.map((toolItem, index) => (
                 <Grid item xs={2} key={index}>
                   <Item>

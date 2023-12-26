@@ -1,0 +1,22 @@
+.container-footer {
+   height: 300px;
+   font-size: 34px;
+   background-color: #ffffff;
+   margin-top: 20px;
+}
+.container-skill-list-title {
+    color: dodgerblue;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contact-me-list {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-me-icon {
+    padding: 10px 0;
+}
+.contact-me-item {
+    width: 30%;
+}
